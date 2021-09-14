@@ -60,7 +60,8 @@ function load_footer() {
 		</p>
 		<br>
 		<p id="links">
-			<a href="credits">Credits</a>
+			<a href="https://${window.location.hostname}">Home</a>
+			<br><a href="credits">Credits</a>
 			<br><a></a>
 			<br><a></a>
 			<br><a></a>
