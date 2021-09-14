@@ -3,7 +3,7 @@
 :root {
 	--bg: #A3EBB1;
 	--tc: #0C2D48;
-	--sb: #A0E7E5;
+	--sb: #18A558;
   --rc: #21B6A8;
 	--tf: 'Kalam';
 	--tt: 0.2s;
@@ -32,19 +32,18 @@ a {
 	color: var(--rc);
 	background: transparent;
 	cursor: pointer;
-	padding-left: 3px;
-	padding-right: 3px;
-	margin-left: -6px;
 	border-radius: 5px;
 	font-size: inherit;
 }
 
 a:hover {
-	background: var(--tc);
+	background: var(--sb);
+	color: var(--tc);
 }
 
 a::selection {
-	background: var(--tc);
+	background: var(--sb);
+  color: var(--bg);
 }
 
 .up-button {
@@ -169,6 +168,7 @@ p {
 }
 
 .foot p#links a:hover {
-	background: var(--bg);
+	background: var(--sb);
+  color: var(--tc)
 }
 
