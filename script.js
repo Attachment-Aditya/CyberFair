@@ -5,13 +5,24 @@ window.addEventListener('contextmenu', e => {
 	let context_menu = document.getElementById('contextmenu');
 	context_menu.innerHTML = `
 	<i class="fas fa-sync-alt" onclick="location.reload();"></i>
-	<i class="fas fa-print" onclick="print();"></i>
+	<i class="fas fa-print" onclick="p();"></i>
 	`;
 
 	contextmenu.style.top = e.clientY;
 	contextmenu.style.left = e.clientX;
 	contextmenu.style.padding = '5px'
 });
+
+function p() {
+  context_menu = document.getElementById('contextmenu');
+	context_menu.innerHTML = ``;
+
+	contextmenu.style.top = e.clientY;
+	contextmenu.style.left = e.clientX;
+	contextmenu.style.padding = '0px';
+
+  print();
+}
 
 window.addEventListener('click', e => {
 	context_menu = document.getElementById('contextmenu');
