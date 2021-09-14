@@ -50,6 +50,8 @@ function crd(loc) {
 function loc(l) {
   if (l == "cred") {
     window.open('credits');
+  } else if (l == "abot") {
+    window.open('about');
   }
 }
 
