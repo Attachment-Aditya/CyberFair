@@ -41,3 +41,40 @@ function loc(l) {
     window.open('credits');
   }
 }
+
+function load_footer() {
+  let ft = `
+    <p>
+			This is footer. Here we will be having links to sub heading and other important linked connections.
+		</p>
+		<br>
+		<p id="links">
+			<a href="credits">Credits</a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+			<br><a></a>
+		</p>
+		<br>
+		<p>
+			This example preview template was created by Aditya. Source code is available in <a href="https://github.com/attachment-aditya/CyberFair">GitHub</a>.
+		</p>
+  `;
+
+  let footer = document.getElementById('foot');
+  footer.innerHTML = ft;
+}
+
+load_footer();
+
