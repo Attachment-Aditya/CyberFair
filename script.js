@@ -26,3 +26,18 @@ function goto_top() {
 	scrollTo(0, 0)
 }
 
+function crd(loc) {
+  if (loc == "team") {
+    window.open('team');
+  } else if (loc == "serv") {
+    window.open('services');
+  } else {
+    window.open('bibliography');
+  }
+}
+
+function loc(l) {
+  if (l == "cred") {
+    window.open('credits');
+  }
+}
