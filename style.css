@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 :root {
-	--bg: #FBE7C6;
-	--tc: #FFAEBC;
+	--bg: #A3EBB1;
+	--tc: #0C2D48;
 	--sb: #A0E7E5;
+  --rc: #21B6A8;
 	--tf: 'Kalam';
 	--tt: 0.2s;
 }
@@ -28,7 +29,7 @@ h1 {
 }
 
 a {
-	color: var(--sb);
+	color: var(--rc);
 	background: transparent;
 	cursor: pointer;
 	padding-left: 3px;
