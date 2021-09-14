@@ -172,3 +172,23 @@ p {
   color: var(--tc)
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sb);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sb)
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-radius: 10px;
+}
+
