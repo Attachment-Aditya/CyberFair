@@ -104,7 +104,7 @@ function cred_team(photo, name, grade, group, role) {
           ${grade}
         </div><br>
         <div class="role">
-          ${group}<br>${grade}
+          ${group}<br>${role}
         </div>
       </div>
     </div>
@@ -116,18 +116,18 @@ function cred_team(photo, name, grade, group, role) {
 }
 
 cpage = false;
+var href_arr = location.href.split('/');
 
 for (let s in location.href.split('/')) {
   let u = location.href.split('/');
   if (u[s] == 'credits') {
+    if (u[Number(s)+1] == 'team') {
+      cpage = true;
+    }
   }
 }
 
-if ('credits/team' === location.href.split("/")[-2] + '/' + location.href.split("/")[-1]) {
-  console.log('hello')
-  cred_team('../../ADITYA.jpeg', 'Aditya Prasad Dash', 'XI S1', 'Technical Team', 'Web Desginer');
-} else {
-  console.log(location.href)
-  console.log(location.href.split("/")[-2] + '/' + location.href.split("/")[-1])
+if ( cpage ) {
+  cred_team('../../Photos/ADITYA.jpeg', 'Aditya Prasad Dash', 'XI S1', 'Technical Team', 'Web Desginer');
 }
 
