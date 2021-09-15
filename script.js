@@ -17,10 +17,8 @@ function p() {
   context_menu = document.getElementById('contextmenu');
 	context_menu.innerHTML = ``;
 
-	contextmenu.style.top = e.clientY;
-	contextmenu.style.left = e.clientX;
 	contextmenu.style.padding = '0px';
-
+  
   print();
 }
 
@@ -91,4 +89,45 @@ function load_footer() {
 }
 
 load_footer();
+
+function cred_team(photo, name, grade, group, role) {
+  let c = `
+    <div class="card">
+      <div class="photo">
+        <img src="${photo}">
+      </div>
+      <div class="info">
+        <div class="name">
+          ${name}
+        </div><br>
+        <div class="grade">
+          ${grade}
+        </div><br>
+        <div class="role">
+          ${group}<br>${grade}
+        </div>
+      </div>
+    </div>
+  `;
+
+  let con = document.getElementById("content");
+
+  con.innerHTML = con.innerHTML + c;
+}
+
+cpage = false;
+
+for (let s in location.href.split('/')) {
+  let u = location.href.split('/');
+  if (u[s] == 'credits') {
+  }
+}
+
+if ('credits/team' === location.href.split("/")[-2] + '/' + location.href.split("/")[-1]) {
+  console.log('hello')
+  cred_team('../../ADITYA.jpeg', 'Aditya Prasad Dash', 'XI S1', 'Technical Team', 'Web Desginer');
+} else {
+  console.log(location.href)
+  console.log(location.href.split("/")[-2] + '/' + location.href.split("/")[-1])
+}
 
