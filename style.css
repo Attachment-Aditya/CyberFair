@@ -19,6 +19,8 @@
 	padding: 0;
 	cursor: default;
 	font-size: 18px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--sb) var(--rc);
 }
 
 h1 {
