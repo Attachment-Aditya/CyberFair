@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 :root {
 	--bg: #FDCA40;
 	--tc: #0A1D37;
 	--sb: #FFEEDB;
   --rc: #FB3640;
-	--tf: 'cENTURY GOTHIC';
+	--tf: 'Nunito';
 	--tt: 0.2s;
 }
 
