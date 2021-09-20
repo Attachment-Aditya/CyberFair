@@ -94,7 +94,7 @@ function cred_team(photo, name, grade, group, role) {
   let c = `
     <div class="card">
       <div class="photo">
-        <img src="${photo}">
+        <img src="../../Photos/${photo}">
       </div>
       <div class="info">
         <div class="name">
@@ -128,6 +128,14 @@ for (let s in location.href.split('/')) {
 }
 
 if ( cpage ) {
-  cred_team('../../Photos/ADITYA.jpeg', 'Aditya Prasad Dash', 'XI S1', 'Technical Team', 'Web Desginer');
+  cred_team('ADITYA.jpeg', 'Aditya Prasad Dash', 'XI S1', 'Technical Team', 'Web Desginer');
+  cred_team('ANANYA.jpeg', 'Ananya', '--', '--', '--');
+  cred_team('BHUMIKA.jpg', 'Bhumika', '--', '--', '--');
+  cred_team('ISHAAN.jpg', 'Ishaan Sharma', 'XI S1', 'Technical Team', 'Desginer and Artist');
+  cred_team('LIYA.jpg', 'Liya', '--', '--', '--');
+  cred_team('MAULIK.jpeg', 'Maulik', '--', 'Technical Team', 'Presentation And Web Desginer');
+  cred_team('SHAGUN.jpeg', 'Shagun', '--', '--', '--');
+  cred_team('SHREY.jpeg', 'Shrey Sharma', '--', 'Technical Team', 'Project Manager');
+  cred_team('TANISHA.jpeg', 'Tanisha', '--', '--', '--');
 }
 
