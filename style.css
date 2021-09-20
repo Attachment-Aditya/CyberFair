@@ -212,6 +212,7 @@ p {
   background: var(--sb);
   border-radius: 10px;
   display: inline-flex;
+  margin: 5px;
 }
 
 .photo {
