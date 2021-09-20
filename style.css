@@ -51,6 +51,7 @@ h6 {
 
 ::selection {
 	background: var(--sb);
+  color: var(--tc);
 }
 
 a {
@@ -73,7 +74,7 @@ a:hover {
 
 a::selection {
 	background: var(--sb);
-  color: var(--bg);
+  color: var(--tc);
 }
 
 .up-button {

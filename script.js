@@ -139,3 +139,12 @@ if ( cpage ) {
   cred_team('TANISHA.jpg', 'Tanisha', '--', '--', '--');
 }
 
+function banner_function(link) {
+  let banner_link = link;
+
+  let be = document.getElementById('banner');
+  be.innerHTML = `<img src="${banner_link}" />`
+}
+
+banner_function('https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/delhi-kashinath-das.jpg');
+
