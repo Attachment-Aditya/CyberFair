@@ -136,6 +136,6 @@ if ( cpage ) {
   cred_team('MAULIK.jpeg', 'Maulik', '--', 'Technical Team', 'Presentation And Web Desginer');
   cred_team('SHAGUN.jpeg', 'Shagun', '--', '--', '--');
   cred_team('SHREY.jpeg', 'Shrey Sharma', '--', 'Technical Team', 'Project Manager');
-  cred_team('TANISHA.jpeg', 'Tanisha', '--', '--', '--');
+  cred_team('TANISHA.jpg', 'Tanisha', '--', '--', '--');
 }
 
