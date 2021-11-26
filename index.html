@@ -1,33 +1,63 @@
 <html>
-<head>
-	<title>CyberFair</title>
+	<!-- head -->
+	<head>
+		<!-- meta -->
+		<title>Chandni Chowk! - CyberFair Project</title>
+		<meta name="description" content="The market of Chandni Chowk is huge and famous. This project dives into the depths of the Markets of Chandni Chowk.">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- general -->
+		<meta property="og:url" content="https://cyberfair.attaditya.relp.co/">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Chandni Chowk! - CyberFair Project">
+		<meta property="og:description" content="The market of Chandni Chowk is huge and famous. This project dives into the depths of the Markets of Chandni Chowk.">
+		<meta property="og:image" content="banner.png">
 
-	<script src="https://kit.fontawesome.com/a63f2fde7e.js" crossorigin="anonymous"></script>
-	<script src="script.js" defer></script>
-	<script>
-		window.addEventListener("contextmenu", e => e.preventDefault());
-	</script>
-</head>
-<body>
-  <!-- Banner -->
-	<div class="banner" id="banner">
-	</div>
-	
-  <!-- Content -->
-  <div class="navigation">
-		<center>
-			<button onclick="loc('abot')">About <i class="fas fa-caret-right" style="color: inherit; cursor: pointer;"></i></button><br>
-			<button onclick="loc('cred')">Credits <i class="fas fa-caret-right" style="color: inherit; cursor: pointer;"></i></button><br>
+		<!-- twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:domain" content="">
+		<meta property="twitter:url" content="https://cyberfair.attaditya.relp.co/">
+		<meta name="twitter:title" content="Chandni Chowk! - CyberFair Project">
+		<meta name="twitter:description" content="The market of Chandni Chowk is huge and famous. This project dives into the depths of the Markets of Chandni Chowk.">
+		<meta name="twitter:image" content="banner.png">
+		
+		<!-- css -->
+		<link rel="stylesheet" href="main.css">
+		
+		<!-- js -->
+		<script src="https://kit.fontawesome.com/a63f2fde7e.js" crossorigin="anonymous"></script>
+		<script src="main.js" defer></script>
+		<script>
+			window.addEventListener("contextmenu", e => e.preventDefault());
+		</script>
+	</head>
+
+	<!-- body -->
+	<body>
+		<!-- contents -->
+		<center id="center--1">
+			<div class="content" id="--content"></div>
 		</center>
-	</div>
 
-	<!-- Extra -->
-  <div class="up-button">
-		<i class="fas fa-angle-double-up" onclick="goto_top();"></i>
-	</div>
-	<div class="contextmenu" id="contextmenu"></div>
-	<div class="foot" id="foot"></div>
-</body>
+		<!-- navigation -->
+		<div class="rd">
+			<!-- output -->
+			<p id="out"></p>
+
+			<!-- inputs -->
+			<div id="second--rd">
+				<input id="in" type="range" min="1" max="1" step="1" value="1">
+				<p id="--rd--txt--btm">
+					Use slider to navigate through the site.
+				</p>
+			</div>
+		</div>
+		
+		<!-- background -->
+		<div class="bg">
+			<img src="https://www.groundprobe.com/wp-content/uploads/2017/01/background-placeholder-3.jpg" />
+		</div>
+
+		<!-- content menu -->
+		<div class="contextmenu" id="contextmenu"></div>
+	</body>
 </html>

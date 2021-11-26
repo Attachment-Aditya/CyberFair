@@ -190,30 +190,30 @@ p {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-  background: var(--bg);
+width: 5px;
+height: 5px;
+background: var(--bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--sb);
-  border-radius: 10px;
+background: var(--sb);
+border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg);
-  border-radius: 10px;
+background: var(--bg);
+border-radius: 10px;
 }
 
 .card {
-  width: 220px;
-  height: 110px;
-  overflow: hidden;
-  border: 5px solid var(--sb);
-  background: var(--sb);
-  border-radius: 10px;
-  display: inline-flex;
-  margin: 5px;
+width: 220px;
+height: 110px;
+overflow: hidden;
+border: 5px solid var(--sb);
+background: var(--sb);
+border-radius: 10px;
+display: inline-flex;
+margin: 5px;
 }
 
 .photo {
